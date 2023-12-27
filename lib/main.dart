@@ -382,7 +382,7 @@ Future<void> _signup() async {
         _signupPasswordController.clear();
       } else {
         // Handle the case where user is null
-        print('Signup failed.');
+        print('Signup error.');
       }
     } catch (e) {
       // Handle authentication errors
